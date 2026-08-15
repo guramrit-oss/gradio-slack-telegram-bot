@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "gradio-slack-telegram-bot"
+version = "0.1.0"
+description = "A bot that integrates Gradio, Slack, and Telegram with pipelines."
+authors = ["Your Name <youremail@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+gradio = "^3.0"
+slack_sdk = "^3.0"
+python-telegram-bot = "^13.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.0"
+black = "^21.0"
+mypy = "^0.910"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
